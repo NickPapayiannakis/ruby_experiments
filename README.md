@@ -4,8 +4,8 @@ This is a collection of tiny Ruby scripts created during my ongoing process of l
 
 ________
 
-Caesar Cipher:  A script which accepts a string and a shift factor which shifts each letter of 
-the string forward the specified number of times.  Spaces and non-alphabetic characters are exempt.
+Caesar Cipher:  A script which accepts a string and a shift factor, shifting each letter of 
+the string forward in the alphabet the specified number of times.  Spaces and non-alphabetic characters are exempt.
 
 
 Stock Picker:  A small script which, when given an array of numbers representing stock prices, selects the 
