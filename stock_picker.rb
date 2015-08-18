@@ -18,4 +18,4 @@ def stock_picker(array_of_prices)
     puts "buy on day #{buy_day + 1} for $#{buy_price} | sell day #{sell_day + 1} for $#{sell_price}"
 end
 
-stock_picker([2,3,46,6,4,1,5])
+stock_picker([100,3,46,6,4,1,5])
