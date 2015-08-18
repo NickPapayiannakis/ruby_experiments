@@ -3,10 +3,10 @@ dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","o
 def substrings(string, dictionary)
 	frequencies = Hash.new(0)
 
-	dictionary.each_index do |substring|
-		frequencies.store(dictionary.fetch(substring), string.scan(/#{dictionary[substring]}/i).length)
+	dictionary.each do |substring|
+		frequencies.store(substring, string.scan(/#{substring}/i).length)
 	end
-	frequencies.each_pair {|word, count| puts "#{word} => #{count}"}
+	frequencies.each_pair {|word, count| puts "#{word} => #{count}" if count > 0}
 end
 
 substrings("Howdy partner, sit down! How's it going?", dictionary)
