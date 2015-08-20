@@ -12,3 +12,5 @@ Stock Picker:  A small script which, when given an array of numbers representing
 
 
 Substring Search: Given a string and an array of words, this script will find all instances of the dictionary substrings in the string of text, returning a hash of each substring along with it's frequency.  Words are matched using variable facilitated regex.
+
+Bubble Sort:  A simple bubble sort algorithm.  Written in two versions: the first a simple bubble sorting method, the second a bubble sort which takes a block as an argument.  
