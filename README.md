@@ -15,4 +15,4 @@ Substring Search: Given a string and an array of words, this script will find al
 
 Bubble Sort:  A simple bubble sort algorithm.  Written in two versions: the first a simple bubble sorting method, the second a bubble sort which takes a block as an argument. 
 
-My Enumerable: A personal reproduction of the Enumerable module containing may popular methods found in the original. 
+My Enumerable: A personal reproduction of the Enumerable module containing many popular methods found in the original. 
