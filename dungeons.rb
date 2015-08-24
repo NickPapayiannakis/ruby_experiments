@@ -54,7 +54,7 @@ class Dungeon
 		end
 
 		def full_description
-			@name + "\n\nYou are in" + description
+			@name + "\n\nYou are in " + description
 		end
 	end
 end
